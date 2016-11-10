@@ -1,0 +1,54 @@
+body{
+background-color:  #EDEDED;
+padding-top:0px;
+}
+.jumbotron{
+background-color:white;
+border:dashed 6px black;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-topright:19px;
+-moz-border-radius-bottomleft:18px;
+-moz-border-radius-bottomright:18px;
+-webkit-border-top-left-radius:19px;
+-webkit-border-top-right-radius:19px;
+-webkit-border-bottom-left-radius:18px;
+-webkit-border-bottom-right-radius:18px;
+border-top-left-radius:19px;
+border-top-right-radius:19px;
+border-bottom-left-radius:18px;
+border-bottom-right-radius:18px;
+text-shadow:5px 5px 5px grey
+
+}
+a:hover{
+color:black;
+}
+.glyphicon:hover{
+color:white;
+}
+.nav{
+background-color:white;
+}
+.navbar-header {
+  color:white;
+  background-color:black;
+  }
+.navbar-toggle:hover{
+color:white;
+}
+a{
+color:blue;
+}
+.glyphicon-home ,.glyphicon-stats, .glyphicon-picture,.glyphicon-earphone,.glyphicon-map-marker{
+color:darkblue;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: blue;
+  color: white;
+}
+font-face .h3
+{ 
+font-family: 'BrushScriptStdMedium';
+}
+

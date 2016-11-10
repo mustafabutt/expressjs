@@ -1,0 +1,24 @@
+<nav class="navbar navbar-default" style="width:1360px;margin-left:-12px">
+                                   <div class="container-fluid">
+                                     <div class="navbar-header" >
+                                       <h3 style="margin-left:550px">Instant Web</h3>
+                                     </div>
+                                   </div>
+                                 </nav>
+                                 <div style="margin-top:150px;margin-left:180px"> 
+                                 <a class="btn btn-success" ng-href="#/teacher/new">  
+                                 <i class="fa fa-plus"></i>Add</a></div> 
+                                 <div><br />  
+                                 <table class="table table-bordered text-center" style="margin-left:180px"> <tr> 
+                                 <th>				<th>id</th>				<th>username</th>				<th>email</th>				<th>password</th></th> 
+                                     <th>Details</th><th>Edit</th><th>Delete</th></tr>
+                                 <tr ng-repeat="item in vm.list"> 
+                                 <td><th>{{item.id}}</th><th>{{item.username}}</th><th>{{item.email}}</th><th>{{item.password}}</th></td><td> 
+                                     <a class="btn btn-primary detailsBtn" ng-href="#/teacher/{{item.id}}"> Details</a></td> 
+                                     <td> 
+                                     <a class="btn btn-warning editBtn" ng-href="#/teacher/edit/{{item.id}}">Edit</a></td>
+                                     <td>  
+                                         <a class="btn btn-danger deleteBtn" ng-href="#/teacher/delete/{{item.id}}">Delete</a></td></tr> 
+                                     </table> 
+                                     </div></div> 
+                                   
